@@ -1,0 +1,122 @@
+[
+    {
+        "brand": "FISCHER",
+        "skis": [
+            {
+                "model": "RC ONE LITE",
+                "cost": "1129.65",
+                "img": "https://dobrenarty.pl/793219-large_default/fischer-narty-damskie-rc-one-lite-72-slr-rs9-slr.jpg"
+            },
+            {
+                "model": "RC ONE F18",
+                "cost": "1649",
+                "img": "https://com.vps.statnet.pl/cms/foto/sklep_produkt_zdjecie_03/1640857359_Narty-Fischer-RC-One-F18-Allride-wiazania-RS11-GW-PR-SMU-2022-2.jpg"
+            },
+            {
+                "model": "PROGRESSOR",
+                "cost": "1649.00",
+                "img": "https://trojansport.pl/media/products/8332a7fdc78ab233526f4a0c527b1397/images/thumbnail/big_a32421-f18-5.jpg?lm=1671287611"
+            },
+            {
+                "model": "TRINITY SLR",
+                "cost": "1499",
+                "img": "https://mcksport.pl/wp-content/uploads/2021/11/narty-fischer-a35221-trinity-slr-scaled-e1637315906363.jpg"
+            },
+            {
+                "model": "RC4",
+                "cost": "3339.00",
+                "img": "https://trojansport.pl/media/products/c8092fa47a0e91dfdc3d7784061aaaea/images/thumbnail/large_narty-fischer-rc4-worldcup-sc-2023.jpg?lm=1671286642"
+            }
+        ]
+    },
+    {
+        "brand": "ATOMIC",
+        "skis": [
+            {
+                "model": "REDSTER S9",
+                "cost": "2149.00",
+                "img": "https://ski24.pl/112522-large_default/narty-atomic-redster-s9-atomic-x12.jpg"
+            },
+            {
+                "model": "REDSTER Q9",
+                "cost": "3999.00",
+                "img": "https://nartykrakow.pl/pol_pm_NARTY-ATOMIC-REDSTER-Q9-REVOSHOCK-Atomic-X12-GW-2023-17043_6.png"
+            },
+            {
+                "model": "CLOUD Q11",
+                "cost": "2115.99",
+                "img": "https://www.tradeinn.com/f/13917/139176626/atomic-cloud-q11-m-10-gw-narty-alpejskie.jpg"
+            },
+            {
+                "model": "MAVERICK B",
+                "cost": "2371.99",
+                "img": "https://www.tradeinn.com/f/13824/138249012/atomic-maverick-95-ti-natrysk-spr%C4%99%C5%BConego-powietrza.jpg"
+            },
+            {
+                "model": "CLOUD C11",
+                "cost": "2949.00",
+                "img": "https://www.atomic.com/pl-pl/shop-emea/media/catalog/product/A/A/AASS02846__20c01f3130c5d9a6edb361e3188a2845.png?dpr=2&fit=bounds&orient=1&quality=70&optimize=medium&format=jpg&auto=webp&enable=upscale&bg-color=ffffff&width=2400"
+            }
+        ]
+    },
+    {
+        "brand": "HEAD",
+        "skis": [
+            {
+                "model": "SUPERSHAPE E-SPEED",
+                "cost": "2899.00",
+                "img": "https://nartykrakow.pl/pol_pl_NARTY-HEAD-SUPERSHAPE-E-SPEED-PRD-12-GW-2023-16720_2.png"
+            },
+            {
+                "model": "SUPERSHAPE E-MAGNUM",
+                "cost": "2699.00",
+                "img": "https://trojansport.pl/media/products/b11c7216d6969c704f80acb635c6f074/images/thumbnail/large_narty-zjazdowe-head-supershape-e-magnum-2023-313301-1.jpg?lm=1671283588"
+            },
+            {
+                "model": "EPIC JOY",
+                "cost": "1679.00",
+                "img": "https://ski24.pl/105218-large_default/narty-head-epic-joy-slr-head-joy-slr-brake-78.jpg"
+            },
+            {
+                "model": "SHAPE E-V10",
+                "cost": "3350.00",
+                "img": "https://cdn-mdb.head.com/CDN3/D/315202.SET_31520201/1/1430x464/shape-e-v10-with-binding-protector-pr-11-gw.jpg"
+            },
+            {
+                "model": "WC REBELS",
+                "cost": "4400.00",
+                "img": "https://cdn-mdb.head.com/CDN3/D/313202.SET_31320202/1/1430x464/worldcup-rebels-e-sl-with-binding-freeflex-st-16.jpg"
+            }
+        ]
+    },
+    {
+        "brand": "ROSSIGNOL",
+        "skis": [
+            {
+                "model": "PH02 HERO ELITE",
+                "cost": "1979.00",
+                "img": "https://nartykrakow.pl/pol_pm_NARTY-ROSSIGNOL-HERO-ELITE-ST-TI-Black-Red-2021-13064_1.jpg"
+            },
+            {
+                "model": "PM02 HERO ELITE",
+                "cost": "3700.00",
+                "img": "https://skiteam.pl/27596/narty-rossignol-pm02-hero-elite-mt-ti-cam-z-wiazaniami.jpg"
+            },
+            {
+                "model": "LM02 NOVA",
+                "cost": "3250.00",
+                "img": "https://skiteam.pl/27610/narty-rossignol-lm02-nova-10-ti-z-wiazaniami.jpg"
+            },
+            {
+                "model": "LK02 REACT",
+                "cost": "2400.00",
+                "img": "https://skiteam.pl/27581/narty-rossignol-lk02-react-6-ca-z-wiazaniami.jpg"
+            },
+            {
+                "model": "BB01 HERO JUNIOR",
+                "cost": "1500.00",
+                "img": "https://skiteam.pl/27771/narty-rossignol-bb01-hero-junior-multi-event-z-wiazaniami.jpg"
+            }
+        ]
+    }
+]

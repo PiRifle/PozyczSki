@@ -17,6 +17,7 @@ if(isset($_POST["size_id"]) && isset($_SESSION["loggedin"])){
     $owner = $_SESSION['loggedin'];
     $sql = "UPDATE ski_owners SET owner_name = '$owner' WHERE id = $id AND owner_name IS NULL";
     mysqli_query($conn, $sql);
+    $requested_lend = true;
 }
 
 // wyciągamy z bazy danych wszystkie rozmiary oraz dane wybranej narty
@@ -155,8 +156,11 @@ $data_display = [
                             <?php
                         }else{
                             ?>
-                            <button class="button-primary">Wypożycz</button>
+                            <button class="button-primary" style="margin: 15px">Wypożycz</button>
                             <?php
+                            if ($requested_lend){
+                                echo "Dziękujemy za wypożyczenie! Miłej jazdy :D"
+                            }
                         }
                         ?>
                 </div>

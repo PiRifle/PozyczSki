@@ -159,7 +159,7 @@ $data_display = [
                             <button class="button-primary" style="margin: 15px">Wypożycz</button>
                             <?php
                             if ($requested_lend){
-                                echo "Dziękujemy za wypożyczenie! Miłej jazdy :D"
+                                echo "Dziękujemy za wypożyczenie! Miłej jazdy :D";
                             }
                         }
                         ?>

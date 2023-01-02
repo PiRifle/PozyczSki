@@ -69,7 +69,7 @@ function create_random($connection)
         }
         $sql = substr($sql, 0, -2);
         $sql .= ";";
-        echo $sql;
+        // echo $sql;
         mysqli_query($connection, $sql);
     }
 

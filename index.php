@@ -5,6 +5,7 @@ include("./lib/helper.php");
 
 function print_listing($brand, $model, $image, $price, $id)
 {
+    $price = intval(floatval($price) / 35);
     return <<<HTML
         <div style="display: flex; align-items: center; justify-content: space-between; margin: 10px; padding: 8px; border: 3px solid rgb(244,244,244); border-radius: 4px" class="row">
             <div style="width: 150px; height: 150px; overflow: hidden; object-position: center;">
@@ -45,6 +46,7 @@ function print_listing($brand, $model, $image, $price, $id)
     } catch (Exception $exc) {
         create_db();
         $conn = init_db();
+        create_random($conn);
     }
     $sql = "SELECT * FROM ski_info";
     $result = mysqli_query($conn, $sql);
@@ -55,7 +57,6 @@ function print_listing($brand, $model, $image, $price, $id)
         while($row = mysqli_fetch_assoc($result)) {
             echo print_listing($row["brand"], $row["model"], $row["img"], $row["price"], $row["id"]);
         }
-        // echo create_random($conn);
         ?>
         
     </div>

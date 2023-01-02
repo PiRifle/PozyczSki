@@ -114,6 +114,8 @@ $data_display = [
                     <img style='width: 100%;height: 100%; object-fit: contain;' src="<?php echo $data_display["img"] ?>" alt="">
                 </div>
                 <div style="width: calc( 100% - 500px ); min-width: 340px; margin: 20px 0 0 0">
+                    <h5>Cena</h5>
+                    <h4><?php echo intval(floatval($data_display["price"]) / 35);?> zł</h4>
                     <h5>Wybierz Rozmiar</h5>
                     <div class="switch-field">
                         <?php
@@ -130,17 +132,17 @@ $data_display = [
                                         <input type="radio" id="radio-$id" name="size_id" value="$id" disabled/>
                                         <label for="radio-$id" style="color: red; border-color: red">$size</label>
                                         HTML;
-                            } else {
-                                return <<<HTML
+                                    } else {
+                                        return <<<HTML
                                         <input type="radio" id="radio-$id" name="size_id" value="$id"/>
                                         <label for="radio-$id">$size</label>
                                         HTML;
-                            }
+                                    }
                         }
                         foreach ($data_display["sizes"] as $size) {
                             echo draw_radio($size["id"], $size["size"], $size["has_owner"]);
                         }
-
+                        
                         ?>
 
                     </div>

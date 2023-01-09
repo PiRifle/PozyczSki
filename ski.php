@@ -10,7 +10,7 @@ if (!isset($_GET["id"])) {
 include("./header.php");
 include("./lib/helper.php");
 $conn = init_db();
-
+$requested_lend = false;
 //gdy zostanie nam wysłany request post (w tym przypadku prośba wypożyczenia narty to rejestrujemy użytkownika do podanej narty)
 if(isset($_POST["size_id"]) && isset($_SESSION["loggedin"])){
     $id = intval($_POST["size_id"]); 

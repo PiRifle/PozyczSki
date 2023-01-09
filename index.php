@@ -15,7 +15,7 @@ function print_listing($brand, $model, $image, $price, $id)
                 <h5>$brand</h5>
                 <h6>$model</h6>
             </div>
-            
+
             <div>
                 <h5><b>$price zł</b></h5>
                 <a href="/ski.php?id=$id" class="button button-primary">Sprawdź</a>
@@ -41,12 +41,20 @@ function print_listing($brand, $model, $image, $price, $id)
     <?php
     echo draw_header();
 
-    try {
-        $conn = init_db();
-    } catch (Exception $exc) {
+    // try {
+    $conn = init_db();
+    // } catch (Exception $exc) {
+    if (!$conn){
         create_db();
         $conn = init_db();
         create_random($conn);
+    }
+    // }
+    if (mysqli_connect_errno())
+    {
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+        //you need to exit the script, if there is an error
+        exit();
     }
     $sql = "SELECT * FROM ski_info";
     $result = mysqli_query($conn, $sql);
@@ -58,11 +66,11 @@ function print_listing($brand, $model, $image, $price, $id)
             echo print_listing($row["brand"], $row["model"], $row["img"], $row["price"], $row["id"]);
         }
         ?>
-        
+
     </div>
-    
-    
-    
+
+
+
 
 </body>
 
